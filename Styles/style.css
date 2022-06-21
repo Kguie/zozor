@@ -1,0 +1,259 @@
+/*Ajout de polices*/
+
+@font-face {
+    font-family: 'DayRomanRegular';
+    src: url('../fonts/DayRomanRegular.woff2') format('woff2'),
+        url('../fonts/DayRomanRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BallparkWeiner';
+    src: url('../fonts/BallparkWeiner.woff2') format('woff2'),
+        url('../fonts/BallparkWeiner.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/*Mise en forme*/
+body {
+    background: url('../images/fond.png');
+    font-family: trebuchet MS, Arial, sans-serif;
+    color: black;
+}
+
+#blocpage {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    margin: auto;
+}
+
+/*police*/
+h2 {
+    font-family: 'DayRomanRegular,';
+    color: black;
+    font-size: 1.2em;
+}
+
+
+/*Header*/
+header {
+    background: url('../images/separateur.png') repeat-x bottom;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#entete {
+    display: flex;
+    flex-direction: column;
+}
+
+#titre {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+#logo {
+    width: 60px;
+    height: 58px;
+
+}
+
+header h1 {
+    font-family: 'BallparkWeiner', Arial, sans-serif;
+    font-size: 2.5em;
+    margin: 0 0 0 10px;
+}
+
+header h2 {
+    display: flex;
+    margin-top: 0px;
+
+}
+
+/*nav*/
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: black;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: red;
+    text-decoration: underline
+}
+
+/*Banniere*/
+#banniere {
+    display: flex;
+    flex-direction: column-reverse;
+    background-image: url(../images/sanfrancisco.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 250px;
+    margin-top: 15px;
+    position: relative;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    box-shadow: 3px 3px 3px black;
+}
+
+#banniere_legende {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 15%;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.bouton {
+    background-color: darkred;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+
+/*Partie principale */
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: top;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 2px;
+    flex: 3;
+    font-size: 0.8em;
+    margin-bottom: 15px;
+}
+
+.titre {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.titre h2 {
+    margin-left: 5px;
+    font-size: 1.5em;
+}
+
+aside {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: visible;
+    position: relative;
+    flex: 1.2;
+    margin-left: 10px;
+    margin-bottom: 15px
+}
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0px;
+    text-align: justify;
+    border-radius: 8px;
+    background-color: rgb(105, 105, 105);
+    padding: 6px;
+    color: white;
+    box-shadow: 3px 3px 3px black;
+    font-size: 0.8em;
+
+}
+
+h3 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin: 4px 3px 3px 3px;
+}
+
+#barre_logo {
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+
+.bulle {
+    align-self: flex-start;
+    position: absolute;
+    top: 110px;
+    left: -10px;
+}
+
+/*footer*/
+footer {
+    background: url('../images/ico_top.png') no-repeat top center,
+        url('../images/separateur.png') repeat-x top,
+        url('../images/ombre.png') repeat-x top;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+}
+
+footer div {
+    margin-top: 20px;
+}
+
+.amis {
+    list-style-image: url(../images/ico_liensexterne.png);
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+}
+
+.liste {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    font-size: 0.8em;
+    color: darkred;
+    justify-items: space-between;
+}
+
+.liste ul {
+    padding-left: 20px;
+    
+}
+
+.tweet p {
+    font-size: 0.8em;
+}
+
+.amis h2 {
+    margin-bottom: 2px;
+}
+footer a 
+{
+	text-decoration: none;
+	color: darkred;
+}
