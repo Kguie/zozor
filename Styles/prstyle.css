@@ -24,6 +24,15 @@ body {
     font-family: trebuchet MS, Arial, sans-serif;
     color: black;
 }
+.box {
+    box-sizing: border-box; /* Opera/IE 8+ */
+ /* box-sizing est appliqué seulement à cette classe */
+ }
+ 
+ * {
+  box-sizing: border-box;
+ /* box-sizing est appliqué à tous les éléments */
+ }
 
 #blocpage {
     display: flex;
