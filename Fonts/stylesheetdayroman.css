@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Day Roman';
+    src: url('DayRoman.woff2') format('woff2'),
+        url('DayRoman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Day Roman';
+    src: url('DayRoman.woff2') format('woff2'),
+        url('DayRoman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DayRomanRegular';
+    src: url('DayRomanRegular.woff2') format('woff2'),
+        url('DayRomanRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
